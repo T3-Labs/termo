@@ -1,0 +1,28 @@
+site_name: Politica de Privacidade
+
+theme:
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  name: material
+
+  icon:
+    repo: fontawesome/brands/git-alt
+
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+nav:
+  - Politica de Privacidade:
+      -  Politica de Privacidade: index.md
+
+extra:
+  version:
+    provider: mike
